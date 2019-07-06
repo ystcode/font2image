@@ -1,5 +1,5 @@
 # font2image
-Convert DIY text to image. DIY文字转换为图片
+Convert DIY text to image. DIY文字图片
 
 # USE
 
