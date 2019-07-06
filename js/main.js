@@ -8,7 +8,7 @@
  //对编辑器的操作最好在编辑器ready之后再做
  ue.ready(function() {
      //设置编辑器的内容
-     ue.setContent('<p><br/><br/><br/><br/><br/><br/><br/></p><p><span style="font-size: 36px; color: rgb(255, 255, 255); font-family: &quot;comic sans ms&quot;;">Zi Tu</span></p>');
+     ue.setContent('<p><br/><br/><br/><br/><br/><br/><br/></p><p style="text-align: center;"><span style="font-size: 36px; color: rgb(255, 255, 255); font-family: comic sans ms;">Zi Tu</span></p>');
      //获取html内容，返回: <p>hello</p>
      // var html = ue.getContent();
      //获取纯文本内容，返回: hello
@@ -56,18 +56,18 @@
          // 下面注释内容为测试内容，测试时可以去掉注释，方便查看生成的canvas区域
          // $("body").after(canvas);
          // 调用Canvas2Image插件
-         let w = $(window).width(); //图片宽度
+         var w = $(window).width(); //图片宽度
          // let h = $(window).height(); //图片高度
          // 这里因为我们生成图片区域高度为400，所以这里我们直接指定
-         let h = $(window).height();
+         var h = $(window).height();
          console.log(w + "    " + h);
          // 将canvas转为图片
          var img = Canvas2Image.convertToImage(canvas, canvasWidth, canvasHeight);
          // 渲染图片，并且加到页面中查看效果
          // frame.html(img);
          // 保存
-         let type = "png"; //图片类型
-         let f = "DNF"; //图片文件名，自定义名称
+         var type = "png"; //图片类型
+         var f = "DNF"; //图片文件名，自定义名称
          // w = (w === '') ? canvasWidth : w; //判断输入宽高是否为空，为空时保持原来的值
          // h = (h === '') ? canvasHeight : h;
          // 这里的判断用于区分移动端和pc端

@@ -11,6 +11,7 @@
 #context {
     height: 100%;
     width: 100%;
+    text-align: initial;
     background-color: rgb(1, 170, 237);
 }
 img {
