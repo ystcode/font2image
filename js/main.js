@@ -47,7 +47,7 @@ var ue = UE.getEditor('container', {
 ue.ready(function () {
     //设置编辑器的内容
     ue.setContent(
-        '<p><br/><br/><br/><br/><br/><br/><br/></p><p style="text-align: center;"><span style="font-size: 36px; color: rgb(255, 255, 255);">字图 ZiTu</span></p>');
+        '<p><br/><br/><br/><br/><br/><br/><br/></p><p style="text-align: center;"><span style="font-size: 36px; color: rgb(255, 255, 255);">一键文字转图片</span></p>');
     //获取html内容，返回: <p>hello</p>
     // var html = ue.getContent();
     //获取纯文本内容，返回: hello
